@@ -1,0 +1,9 @@
+FORM openjdk
+
+WORKEDIR /application
+
+COPY os.java .
+
+RUN javac od.java
+
+CMD java os
